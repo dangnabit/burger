@@ -8,7 +8,7 @@
 
 var connection = require('./connection.js');
 
-function printQuestionMarks(ammount) {
+function addQuestionMarks(ammount) {
   var questionMarkArr = [];
 
   for (var i = 0; i < ammount; i++) {
@@ -49,7 +49,7 @@ var orm = {
     queryString += columns.toString();
     queryString += ') ';
     queryString += 'VALUES (';
-    queryString += printQuestionMarks(values.length);
+    queryString += addQuestionMarks(values.length);
     queryString += ') ';
 
     console.log(queryString);
