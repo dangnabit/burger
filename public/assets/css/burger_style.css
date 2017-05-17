@@ -1,0 +1,27 @@
+body {
+  background-color: #FEF1B7;
+}
+
+.jumbotron {
+  background-color: #FFB2BA;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #5B61FF;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.5019607843137255);
+}
+
+.eaten {}
+
+.non-eaten {
+  background-color: #FFB2BA;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+}

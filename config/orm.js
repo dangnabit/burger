@@ -6,7 +6,7 @@
 // updateOne()
 // Export the ORM object in module.exports.
 
-var connection = require('./example.connection.js');
+var connection = require('./connection.js');
 
 function addQuestionMarks(ammount) {
   var questionMarkArr = [];

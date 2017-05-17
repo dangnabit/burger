@@ -37,4 +37,4 @@ jspm_packages
 .node_repl_history
 
 # SQL Connection.js 
-config/connection.js
+config/config.js

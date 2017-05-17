@@ -1,6 +1,6 @@
 {{!-- View setup Setup the index.handlebars to have the template that Handlebars can render onto. Create a button in index.handlebars that will submit the user input into the database. --}}
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8 eaten">
     <h2 class='text-center'>Burgers to eat!!</h2>
     <table class="table">
       <thead>
@@ -25,7 +25,7 @@
         {{/unless}} {{/each}}
     </table>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 non-eaten">
     <h2 class='text-center'>Devoured Burgers!</h2>
     <table class='table center'>
       <thead>
